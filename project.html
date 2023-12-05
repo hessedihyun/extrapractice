@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./project.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        이름: <input type="text" name="userName" id="name" /><br/>
+        아이디: <input type="text" name="userId" id="userId" /><br/>
+        비밀번호: <input type="password" name="userPW" id="userPW"/><br/>
+        연락처: <input type="text" name="phoneNum1" id="phoneNum1" size="5" /> -
+                <input type="text" name="phoneNum2" id="phoneNum2" size="5"/> -
+                <input type="text" name="phoneNum3" id="phoneNum3" size="5"/><br/>
+        성별: <input type="radio" name="gender" value="남" checked="checked">남
+              <input type="radio" name="gender" value="여"/>여<br/>
+        언어: <input type="checkbox" name="lang" value="한국어" checked="chekced"/>한글
+               <input type="checkbox" name="lang" value="영어"/>영어
+               <input type="checkbox" name="lang" value="중국어"/>중국어<br/>
+        자기소개: <textarea name="intro" id="selfIntro" cols="20" rows="5">간단하게 입력하세요.</textarea><br/>
+        국적: <select name="con">
+                <option value="한국">KOREA</option>
+                <option value="미국">USA</option>
+                <option value="일본">JAPAN</option>
+                <option value="중국">CHINA</option>
+        </select><br/>
+
+        좋아하는 음식: <select name="favorite" multiple="multiple">
+            <option value="김치">김치</option>
+            <option value="불고기">불고기</option>
+            <option value="파전">파전</option>
+            <option value="비빔밥">비빔밥</option>
+        </select><br/>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
